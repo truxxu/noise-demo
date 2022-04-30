@@ -25,6 +25,13 @@ body {
 
 .underscore-text {
     text-decoration: underline;
+    animation: underscore-text 4s infinite;
+}
+
+@keyframes underscore-text {
+  from { opacity: 1.0; }
+  50% { opacity: 0; }
+  to { opacity: 1.0; }
 }
 
 #myVideo {
