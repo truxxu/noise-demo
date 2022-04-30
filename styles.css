@@ -45,3 +45,12 @@ body {
 .content {
   z-index: 2;
 }
+
+#sound_button {
+  width: 20px;
+  height: 20px;
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
